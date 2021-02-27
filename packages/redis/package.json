@@ -1,0 +1,22 @@
+{
+  "name": "redis",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "carlosramosarj <carlos.ramos@corusconsulting.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/redis.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "promise-redis": "0.0.5"
+  }
+}

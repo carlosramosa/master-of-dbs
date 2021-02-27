@@ -1,0 +1,24 @@
+{
+  "name": "mongo",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "carlosramosarj <carlos.ramos@corusconsulting.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/mongo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "npm run start-mongo",
+    "start-mongo": "docker-compose up",
+    "stop-mongo": "docker-compose stop"
+  },
+  "dependencies": {
+    "mongodb": "^3.6.4"
+  }
+}
